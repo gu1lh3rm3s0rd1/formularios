@@ -1,0 +1,1657 @@
+/* Importa as fontes ao html */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+
+/* Define textos como caixa alta */
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.consulta{
+    margin-top: 8%;
+}
+
+/* div responsavel pelo alinhamento das caixas dos codigos */
+.align{
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+    text-align: center;
+    max-width: 100%;
+}
+
+/* box foi usado para saber qual quadrante localizar */
+.box1{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    width: auto;
+}
+
+/* box foi usado para saber qual quadrante localizar */
+.box2{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    width: auto;
+}
+
+/* box foi usado para saber qual quadrante localizar */
+.box3{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    width: auto;
+}
+
+/* Define a cor branca */
+.wt{
+    color: #fff;
+}
+
+/* manipulam os campos de solicitacao */
+.ali1{
+    width: 27%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    font-size: 0.77vw;
+}
+
+/* manipulam os campos recebidos por ea caixa selecione */
+.ali2{
+    width: 18%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    font-size: 0.77vw;
+    /*padding: 8px;*/
+}
+
+/* manipulam os campos de solicitacao */
+.ali{
+    width: 27%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.77vw;
+}
+
+/* manipulam os campos de solicitacao */
+.alit{
+    width: 27%;
+    display: inline;
+    justify-content: center;
+    align-items: left;
+    font-size: 0.77vw;
+}
+
+/* manipula  responsavel pelo serviço ea caixa selecione */
+.ali3{
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    font-size: 0.77vw;
+    /*padding: 8px;*/
+}
+
+/* Campos de digitação do formulário */
+.input-padrao{
+    color: #ffffff00;
+    border-width: 1px;
+    color: #000;
+    border-style: solid;
+    border-color: #ffffff00;
+    outline: #ffffff00;
+    font-size: 0.77vw;
+    width: 73%;
+    padding-left: 15px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Define a tabela como alinhada ao centro */
+table{
+    font-size: 1vw;
+    align-items: center;
+    margin: auto;
+}
+
+/* Define a tabela como alinhada ao centro */
+.input-npadrao{
+    color: #ffffff00;
+    border-width: 1px;
+    color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: #ffffff00;
+    outline: #ffffff00;
+    background-color: #262e57;
+    font-size: 0.77vw;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Outro input definido como padrão alternativo */
+.input-padraop{
+    color: #ffffff00;
+    border-width: 1px;
+    color: #000;
+    border-style: solid;
+    border-color: #ffffff00;
+    outline: #ffffff00;
+    font-size: 0.77vw;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 20px;
+    padding-top: 10px;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+
+/* Outro input definido como padrão alternativo */
+.input-padrao2{
+    color: #ffffff00;
+    border-width: 1px;
+    color: #000;
+    border-style: solid;
+    border-color: #ffffff00;
+    outline: #ffffff00;
+    font-size: 0.77vw;
+    width: 20%;
+    padding-left: 15px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Outro input definido como padrão alternativo */
+.input-padrao3{
+    color: #ffffff00;
+    border-width: 1px;
+    color: #000;
+    border-style: solid;
+    border-color: #ffffff00;
+    outline: #ffffff00;
+    font-size: 0.77vw;
+    width: 85%;
+    padding-left: 15px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Outro input definido como padrão alternativo */
+.inputly{
+    color: #ffffff00;
+    border-width: 1px;
+    color: #000;
+    border-style: solid;
+    border-color: #ffffff00;
+    outline: #ffffff00;
+    font-size: 0.77vw;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Aplicação de estilo para hover */
+.just-hover{
+    width: 100%;
+}
+
+/* Aplicação de estilo para hover */
+.just-hover:hover{
+    background-color: #d3d3d3;
+}
+
+/* Aplicação de estilo para hover */
+.just-hover-item{
+    width: auto;
+}
+
+/* Aplicação de estilo para hover */
+.just-hover-item:hover{
+    background-color: #d3d3d3;
+}
+
+/* Outro input definido como padrão alternativo */
+.preenche{
+    color: #ffffff00;
+    border-width: 1px;
+    color: #000;
+    border-style: solid;
+    border-color: #ffffff00;
+    outline: #ffffff00;
+    font-size: 0.77vw;
+    width: 82%;
+    margin-left: 10px;
+    margin-right: 15px;
+    padding-left: 15px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* manipula o campo executante */
+.ali4{
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.77vw;
+    /*padding: 8px;*/
+}
+
+/* Ajusta elementos na horizontal */
+.horizontal{
+    display: inline;
+}
+
+/* Altera a cor do texto para cinza */
+.gray{color: #464646;}
+
+/* Altera a cor do texto para branco */
+.white{
+    color: #fff;
+}
+
+/* O input dentro da div de classe horizontal recebe essas propriedades */
+.horizontal input{
+    margin: 15px 0px 15px 0px;
+}
+
+/* Para todos os inputs */
+input{
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+/* Para todos os textareas */
+textarea{
+    text-transform: uppercase;
+}
+
+/* enquadra todo o body do projeto para a responsividade */
+main{
+    width: auto;
+    margin: 0% 10%;
+    padding-bottom: 100px;
+    background-color: #d8d8d8;
+    
+}
+
+/* bachground da pagina */
+.claro{
+    background-color: #d8d8d8;
+}
+
+/* Estilo do botão */
+.btn{
+    background-color: #000b49;
+    color: #d8d8d8;
+    padding: 10px 20px;
+}
+
+/* Estilo do botão */
+.btn:hover{
+    background-color: #000f61;
+    color: #ecdf2a;
+    padding: 10px 20px;
+}
+
+/* Estilo do campo descrição, a textarea */
+.desc{
+    color: #ffffff00;
+    border-width: 1px;
+    color: #000;
+    border-style: solid;
+    border-color: #ffffff00;
+    outline: #ffffff00;
+    font-size: 0.77vw;
+    width: 100%;
+    height: 220px;
+    padding: 10px;
+}
+
+/* Margim que separa a faixa com o logo do formulário */
+.mg{
+    margin-top: 5%;
+}
+
+/* Aplicando a todas as imagens */
+img{
+    width: 17%;
+}
+
+/* Ajuste para o alinhamento a direita */
+.right{
+margin-left: 0px;
+text-align: end;
+}
+
+/* Centraliza divs */
+.auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Centraliza div com textos */
+.ctr{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+/* Ajusta ao centro os conteúdos de span e divs*/
+.ctr2{
+    justify-content: center;
+    align-items: center;
+}
+
+/* Centraliza div com textos a esquerda */
+.ctr-left{
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    margin: auto;
+}
+
+/* Centraliza div e textos a esquerda */
+.ctr-right{
+    justify-content: right;
+    align-items: right;
+    text-align: right;
+    margin-right: 0px;
+}
+
+/* Faixa azul */
+.top{
+    z-index: 15;
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    height: auto;
+    background-color: #000b49;
+    position: fixed;
+    top: 0;
+}
+
+/* Alinha itens lado a lado */
+.flex{
+    display: flex;
+}
+
+/* Alinha itens um abaixo ao outro */
+.inline{
+    display: inline;
+}
+
+/* propriedades para todos os links */
+a{
+    text-decoration: none;
+    color: #d8d8d8;
+    text-align: center;
+}
+
+/* div do botao salvar */
+.tirex{
+    border-style: none;
+    border-width: 0px;
+    font-size: 15px;
+    display: flex;
+    width: 100%;
+    justify-content: right;
+}
+
+/* div do botao arquivo */
+.tudim{
+    position: absolute;
+    top: 15%;
+}
+
+/* classe do botao salvar */
+.archive{
+    transition: 0.5s;
+    padding: 13px 20px;
+    margin-top: 2px;
+    background-color: #000b49;
+    color: #d8d8d8;
+    text-align: center;
+    height: 53.2px;
+    width: 120px;
+}
+
+/* hover do botao salvar */
+.archive:hover{
+    transition: 0.5s;
+    padding: 13px 20px;
+    background-color: #27318d;
+    color: #ffee00; 
+    text-align: center;
+}
+
+/* classe do botao cancelar */
+.archivedy{
+    margin-right: 10px;
+    transition: 0.5s;
+    padding: 15px 20px;
+    background-color: #661010;
+    color: #d8d8d8;
+    text-align: center;
+    width: auto;
+}
+
+/* hover do botao cancelar */
+.archivedy:hover{
+    transition: 0.5s;
+    padding: 15px 20px;
+    background-color: #812626;
+    color: #ffee00;
+    text-align: center;
+    width: auto;
+}
+
+/* classe alternativa do botao voltar */
+.archivex{
+    padding: 13px 20px;
+    background-color: #000b49;
+    color: #d8d8d8;
+    width: 100px;
+    margin-right: 0px;
+}
+
+/* hover alternativo do botao voltar */
+.archivex:hover{
+    padding: 13px 20px;
+    background-color: #000f61;
+    color: #ecdf2a;
+    width: 100px;
+    margin-right: 0px;
+}
+
+/* classe alternativa dos botões */
+.archive3{
+    padding: 13px 20px;
+    background-color: #0c185c;
+    color: #d8d8d8;
+    text-align: center;
+    width: 100px;
+}
+
+/* hover alternativo dos botões */
+.archive3:hover{
+    padding: 13px 20px;
+    background-color: #101c63;
+    color: #eeff00;
+    text-align: center;
+    width: 100px;
+}
+
+/* classe alternativa dos botões */
+.archive2{
+    padding: 13px 20px;
+    background-color: #000b49;
+    color: #d8d8d8;
+    text-align: center;
+    width: 100px;
+    position: absolute;
+    top: 15%;
+}
+
+/* hover alternativo dos botões */
+.archive2:hover{
+    padding: 13px 20px;
+    background-color: #000f61;
+    color: #ecdf2a;
+    text-align: center;
+    width: 100px;
+}
+
+/* descricao das solicitacoes em andamento */
+.pedido{
+    width: auto;
+    height: auto;
+    font-size: 13px;
+    padding: 10px;
+    transition: 0.5s;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #2a335f;
+}
+
+/* Classe pedido */
+.pedidow{
+    width: auto;
+    height: auto;
+    display: flex;
+    font-size: 13px;
+    padding: 10px;
+    transition: 0.5s;
+    text-align: left;
+    margin-left: 0px;
+    border-radius: 0px;
+    background-color: #2a335f;
+}
+
+/* Classe pedido */
+.pede{
+    width: 100%;
+    height: auto;
+    font-size: 13px;
+    padding: 10px;
+    transition: 0.5s;
+    margin: 10px;
+    background-color: #1e2442;
+}
+
+/* Classe pedido */
+.pedido2{
+    width: auto;
+    height: auto;
+    display: flex;
+    font-size: 13px;
+    padding: 10px;
+    transition: 0.5s;
+    text-align: left;
+    margin-left: 0px;
+    border-radius: 0px;
+    background-color: #2a335f00;
+}
+
+/* Classe pedido */
+.pedido2:hover{
+    transition: 0.5s;
+    display: flex;
+    background-color: #38437c;
+}
+
+/* Classe pedido */
+.ordem1{
+    width: auto;
+    height: auto;
+    font-size: 13px;
+    padding: 10px;
+    transition: 0.5s;
+    margin: 10px;
+    border-radius: 0px;
+    background-color: #2a335f;
+}
+
+/* Linha da tabela de pedido */
+tr:hover{
+    transition: 0.5s;
+}
+
+/* Borda da tabela de pedido */
+td {
+  border: 2px solid #000b49;
+}
+
+th{
+    transition: 0.5s;
+}
+
+/* Aplicação à todas as divs */
+div {    
+    margin:2; /*Defina a separacao das colunas aqui*/
+    padding:0;
+}
+
+/* linha aplicada as divs */
+.linha{
+    padding:0;
+    clear:both;
+}
+
+/* Tabela pedidos */
+.coluna{    
+    height:25px;
+    border: 1px solid #000000;
+    width:120;      
+    float:left;
+}
+
+/* Resultado botão */
+.result_s{
+    width: auto;
+    margin-right: 20%;
+    margin-left: 10px;
+    background-color: #262e57;
+    padding: 10px 20px;
+}
+
+/* Nome botão */
+.nome_s{
+    width: auto;
+    margin-right: 50px;
+    margin-left: 0px;
+    background-color: #262e57;
+    padding: 10px 20px;
+}
+
+/* data botão */
+.data_S{
+    width: auto;
+    margin-right: 50px;
+    margin-left: 10px;
+    background-color: #262e57;
+    padding: 10px 20px;
+}
+
+/* Nome botão */
+.ordem2{
+    width: auto;
+    height: auto;
+    font-size: 13px;
+    padding: 10px;
+    transition: 0.5s;
+    margin: 10px;
+    border-radius: 0px;
+    background-color: #394685;
+}
+
+/* elementos que compoe o campo da mensagem que aparece quando tem alguma ordem em andamento */
+.pedidon{
+    width: auto;
+    height: auto;
+    padding: 10px;
+    font-size: 1vw;
+    transition: 0.5s;
+    margin: 10px;
+    opacity: 0.6;
+    border-radius: 0px;
+    background-color: #3b4353;
+}
+
+.pedido:hover{
+    width: auto;
+    height: auto;
+    padding: 10px;
+    transition: 0.5s;
+    border-radius: 10px;
+    background-color: #465188;
+}
+
+/* manipula consulta.php - caixa onde aparecem as ordem de serviço em aberto */
+.cardd{
+    background-color: #000b49;
+    color: #d8d8d8;
+    border-radius: 15px;
+    width: auto;
+    text-align: center;
+    font-size: 25px;
+    height: 700px;
+    padding: 60px 60px;
+    margin: 0px 250px;
+}
+
+button{
+    border-width: 0px;
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.filter-text{
+font-size: 0.8vw;
+margin-right: 1%;
+}
+
+.filter-button{
+    font-size: 0.8vw;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.filter-button-item{
+    font-size: 0.8vw;
+    border-radius: 0px;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.buttons{
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0%;
+    color: #fff;
+    text-align: center;
+    background-color: rgb(0, 1, 70);
+    border-radius: 10px;
+    padding: 50px;
+    display: flex;
+    width: 52%;
+}
+
+.disable{
+    opacity: 0.7;
+}
+
+.enable{
+    opacity: 1;
+}
+
+.buttons2{
+    border-radius: 0px;
+    padding: 0px;
+    width: 25%;
+    margin: auto;
+}
+
+.new{
+    width: 50%;
+    margin-top: -11px;
+    margin-right: 0px;
+    text-align: start;
+}
+
+.open{
+    width: 50%;
+    margin-right: 0px;
+    text-align: end;
+}
+
+.sim{
+    transition: 0.5s;
+    background-color: #000b49;
+    color: #ffffff;
+}
+
+.sim:hover{
+    transition: 0.5s;
+    background-color: #131e5e;
+    color: #ffffff;
+}
+
+.nao{
+    transition: 0.5s;
+    font-weight: bold;
+    background-color: rgb(255, 132, 132);
+    color: #1f0000;
+}
+
+.nao:hover{
+    transition: 0.5s;
+    background-color: rgb(228, 104, 104);
+    color: #1f0000;
+}
+
+.nnovo{
+    transition: 0.3s;
+    background-color: #9e9e9e;
+    color: rgb(0, 0, 0);
+    font-size: 1vw;
+    padding: 10px 45px;
+    width: 12vw;
+    text-align: center;
+    margin: 3px;
+}
+
+.nnovo:hover{
+    transition: 0.3s;
+    background-color: #808080;
+    color: rgb(0, 0, 0);
+}
+
+.novo{
+    transition: 0.3s;
+    background-color: #ecd82a;
+    color: #000;
+    font-size: 1vw;
+    padding: 10px 45px;
+    width: 12vw;
+    margin: 3px;
+}
+
+.novo:hover{
+    transition: 0.3s;
+    background-color: #172775;
+    color: rgb(250, 225, 0);
+}
+
+.abrir{
+    transition: 0.3s;
+    background-color: #ecd82a;
+    color: #000;
+    font-size: 1vw;
+    text-align: right;
+    padding: 10px 20px;
+    margin-right: 0px;
+}
+
+.abrir:hover{
+    transition: 0.3s;
+    background-color: #172775;
+    color: rgb(250, 225, 0);
+}
+
+.sairx{
+    transition: 0.3s;
+    background-color: #000e5a;
+    font-size: 0.7vw;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    margin-right: 55%;
+}
+
+.sairx:hover{
+    transition: 0.3s;
+    background-color: #001c68;
+    color: rgb(255, 208, 0);
+}
+
+.sairy{
+    transition: 0.3s;
+    background-color: #000e5a;
+    font-size: 0.7vw;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+}
+
+.sairy:hover{
+    transition: 0.3s;
+    background-color: #001c68;
+    color: rgb(255, 208, 0);
+}
+
+
+.sair{
+    transition: 0.3s;
+    background-color: #000b49;
+    font-size: 0.7vw;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    margin: 20px 20px 0px -10px;
+    width: 250px;
+    height: 50px;
+}
+
+.sair:hover{
+    transition: 0.3s;
+    background-color: #001c68;
+    color: rgb(255, 208, 0);
+}
+
+.sair2{
+    transition: 0.3s;
+    text-decoration: none;
+    background-color: #000e5a;
+    font-size: 0.7vw;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    margin: 20px 20px 0px -10px;
+}
+
+.sair2:hover{
+    transition: 0.3s;
+    text-decoration: none;
+    background-color: #001c68;
+    color: rgb(255, 208, 0);
+}
+
+.sair3{
+    transition: 0.3s;
+    background-color: #000e5a;
+    font-size: 0.7vw;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    margin: 20px 10px 0px -10px;
+}
+
+.sair3:hover{
+    transition: 0.3s;
+    background-color: #001c68;
+    color: rgb(255, 208, 0);
+}
+
+.titulo{
+    font-size: 1vw;
+}
+
+.styled{
+    margin:auto;
+    text-align: right; 
+    width: 27%
+}
+
+.titulico{
+    background-color: #00093a;
+    font-size: 1.05vw;
+    color: #fff;
+}
+
+th {
+    position: sticky;
+    top: 0;
+    background-color: #00093a;
+  }
+
+.scroll{
+    overflow-y: scroll;
+    height: 80%;
+    width: 100%;
+}
+
+@media (min-width: 1430px) and (max-width: 1669px) {
+    
+    .mg{
+        margin-top: 90px;
+    }
+
+    .tudim{
+        position: absolute;
+        top: 18%;
+    }
+
+    .archive2{
+        padding: 13px 20px;
+        text-align: center;
+        width: 100px;
+        position: absolute;
+        top: 18%;
+    }
+
+    .sair2{
+        transition: 0.3s;
+        background-color: #000e5a;
+        font-size: 0.7vw;
+        color: rgb(255, 255, 255);
+        padding: 10px 20px;
+        margin: 20px 20px 0px -10px;
+    }
+    
+    .sair2:hover{
+        transition: 0.3s;
+        background-color: #001c68;
+        color: rgb(255, 208, 0);
+    }
+    svg{
+        display: none;
+    }
+}
+
+@media (min-width: 1100px) and (max-width: 1469px) {
+
+    .mg{
+        margin-top: 90px;
+    }
+
+    .consulta{
+        margin-top: 9%;
+    }
+
+    .cardd{
+        color: #ffffff;
+        border-radius: 10px;
+        width: auto;
+        text-align: center;
+        font-size: 25px;
+        height: 420px;
+        padding: 20px 60px;
+        margin: 0px 150px;
+    }
+
+    .scroll{
+        overflow-y: scroll;
+        height: 70%;
+        width: 100%;
+    }
+
+    .tudim{
+        position: absolute;
+        top: 18%;
+    }
+
+    .new{
+        width: 50%;
+        margin-top: -29px;
+        margin-right: 0px;
+        text-align: start;
+    }
+    
+    .archive2{
+        padding: 13px 20px;
+        text-align: center;
+        width: 100px;
+        position: absolute;
+        top: 18%;
+    }
+
+    .buttons{
+        margin-top: 10%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+        padding: 20px;
+        width: 55%;
+    }
+
+    .novo{
+        transition: 0.3s;
+        background-color: #ecd82a;
+        color: #000;
+        font-size: 1vw;
+        padding: 10px 45px;
+        width: 12vw;
+        text-align: center;
+        margin: 3px;
+    }
+    
+    .novo:hover{
+        transition: 0.3s;
+        background-color: #172775;
+        color: rgb(250, 225, 0);
+    }
+
+    svg{
+        display: none;
+    }
+    
+    .sair2{
+        transition: 0.3s;
+        background-color: #000e5a;
+        font-size: 0.7vw;
+        color: rgb(255, 255, 255);
+        padding: 10px 20px;
+        margin: 20px 20px 0px -10px;
+    }
+    
+    .sair2:hover{
+        transition: 0.3s;
+        background-color: #001c68;
+        color: rgb(255, 208, 0);
+    }
+
+    .styled{
+        margin:auto;
+        text-align: right; 
+        width: 33%
+    }
+
+    .inputly{
+        color: #ffffff00;
+        border-width: 1px;
+        color: #000;
+        border-style: solid;
+        border-color: #ffffff00;
+        outline: #ffffff00;
+        font-size: 0.77vw;
+        width: 88%;
+        padding-left: 15px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .abrir{
+        transition: 0.3s;
+        background-color: #ecd82a;
+        color: #000;
+        font-size: 1vw;
+        padding-top: 15px;
+        margin: 20px;
+    }
+    
+    .sair{
+        transition: 0.3s;
+        background-color: #000b49;
+        font-size: 1vw;
+        color: rgb(255, 255, 255);
+        padding-top: 10px;
+        margin: 20px;
+    }
+
+    .buttons2{
+        border-radius: 0px;
+        padding: 0px;
+        width: 30%;
+        margin: auto;
+    }
+
+    table{
+        font-size: 0.7vw;
+        align-items: center;
+        margin: auto;
+    }
+
+}
+
+@media (min-width: 00px) and (max-width: 1120px) {
+
+    .new{
+        width: 50%;
+        margin-top: -3px;
+        margin-right: 0px;
+        text-align: start;
+    }
+
+    .sair2{
+        transition: 0.3s;
+        background-color: #000e5a;
+        font-size: 0.8vw;
+        color: rgb(255, 255, 255);
+        padding: 10px 20px;
+        margin: 20px 20px 0px -10px;
+    }
+    
+    .sair2:hover{
+        transition: 0.3s;
+        background-color: #001c68;
+        color: rgb(255, 208, 0);
+    }
+
+    .novo{
+        transition: 0.3s;
+        background-color: #ecd82a;
+        color: #000;
+        font-size: 1vw;
+        padding: 10px 45px;
+        text-align: center;
+        width: 120px;
+        margin: 3px;
+    }
+    
+    .novo:hover{
+        transition: 0.3s;
+        background-color: #172775;
+        color: rgb(250, 225, 0);
+    }
+}
+
+/* ------------------------------------------------------------------------------------------------------------ */
+/* Estilo da barra de pesquisa nos campos SOLICITANTE e EXECUTANTE */
+
+.select2-container{ 
+    box-sizing:border-box;
+    display:inline-block;
+    margin:0;
+    position:relative;
+    vertical-align:middle}
+
+.select2-container .select2-selection--single{
+    box-sizing:border-box;
+    cursor:pointer;
+    display:block;
+    height: 100%;
+    user-select:none;
+    -webkit-user-select:none}
+
+.select2-container .select2-selection--single .select2-selection__rendered{
+        display:block;
+        padding-left:8px;
+        padding-right:20px;
+        overflow:hidden;
+        text-overflow:ellipsis;
+        white-space:nowrap}
+
+.select2-container .select2-selection--single .select2-selection__clear{
+    background-color:transparent;
+    border:none;
+    font-size:1em}
+    
+.select2-container[dir="rtl"] 
+
+.select2-selection--single .select2-selection__rendered{
+    padding-right:8px;
+    padding-left:20px;}
+    
+.select2-container .select2-selection--multiple{
+    box-sizing:border-box;
+    cursor:pointer;
+    display:block;
+    min-height:32px;
+    user-select:none;
+    -webkit-user-select:none}
+    
+.select2-container .select2-selection--multiple .select2-selection__rendered{
+    display:inline;
+    list-style:none;
+    padding:0}
+    
+.select2-container .select2-selection--multiple .select2-selection__clear{
+    background-color:transparent;
+    border:none;
+    font-size:1em}
+    
+.select2-container .select2-search--inline .select2-search__field{
+    box-sizing:border-box;
+    border:none;
+    font-size:100%;
+    margin-top:5px;
+    margin-left:5px;
+    padding:0}
+    
+.select2-container .select2-search--inline .select2-search__field::-webkit-search-cancel-button{-webkit-appearance:none}
+
+.select2-dropdown{
+    background-color:white;
+    border:1px solid #aaa;
+    border-radius:4px;
+    box-sizing:border-box;
+    display:block;
+    position:absolute;
+    left:-100000px;
+    width:100%;
+    z-index:1051}
+
+.select2-results{display:block}
+
+.select2-results__options{
+    list-style:none;
+    margin:0;
+    padding:0}
+    
+.select2-results__option{
+    padding:6px
+    ;user-select:none;
+    -webkit-user-select:none}
+    
+.select2-results__option--selectable{cursor:pointer}
+
+.select2-container--open .select2-dropdown{left:0}
+
+.select2-container--open .select2-dropdown--above{
+    border-bottom:none;
+    border-bottom-left-radius:0;
+    border-bottom-right-radius:0}
+    
+.select2-container--open .select2-dropdown--below{
+    border-top:none;
+    border-top-left-radius:0;
+    border-top-right-radius:0}
+    
+.select2-search--dropdown{
+    display:block;padding:4px}
+    
+.select2-search--dropdown .select2-search__field{
+    padding:4px;
+    width: 95%;
+    margin: auto;
+    box-sizing:border-box}
+    
+.select2-search--dropdown .select2-search__field::-webkit-search-cancel-button{-webkit-appearance:none}
+
+.select2-search--dropdown.select2-search--hide{display:none}
+
+.select2-close-mask{
+    border:0;
+    margin:0;
+    padding:0;
+    display:block;
+    position:fixed;
+    left:0;
+    top:0;
+    min-height:100%;
+    min-width:100%;
+    height:auto;
+    width:auto;
+    opacity:0;
+    z-index:99;
+    background-color:#fff;
+    filter:alpha(opacity=0)}
+    
+    .select2-hidden-accessible{
+        border:0 !important;
+        clip:rect(0 0 0 0) !important;
+        -webkit-clip-path:inset(50%) !important;
+        clip-path:inset(50%) !important;
+        height:1px !important;
+        overflow:hidden !important;
+        padding:0 !important;
+        position:absolute !important;
+        width:1px !important;
+        white-space:nowrap !important}
+        
+.select2-container--default .select2-selection--single{
+    background-color:#fff;
+    border:1px solid rgb(255, 255, 255);
+    border-radius:0px}
+    
+.select2-container--default .select2-selection--single .select2-selection__rendered{
+    color:#444;
+    line-height:40px;
+    font-size: 0.77vw;
+    text-align: left;
+padding-left: 17px;}
+
+.select2-container--default .select2-selection--single .select2-selection__clear{
+    cursor:pointer;
+    float:right;
+    font-weight:bold;
+    height:26px;
+    margin-right:20px;
+    padding-right:0px}
+    
+.select2-container--default .select2-selection--single .select2-selection__placeholder{color:#999}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow{
+    height:40px;
+    position:absolute;
+    top:1px;
+    right:1px;
+    width:20px}
+    
+.select2-container--default .select2-selection--single .select2-selection__arrow b{
+    border-color:#888 transparent transparent transparent;
+    border-style:solid;
+    border-width:5px 4px 0 4px;
+    height:0;
+    left:50%;
+    margin-left:-4px;
+    margin-top:-2px;
+    position:absolute;
+    top:50%;width:0}
+    
+.select2-container--default[dir="rtl"] 
+
+.select2-selection--single .select2-selection__clear{float:left}
+
+.select2-container--default[dir="rtl"] 
+
+.select2-selection--single .select2-selection__arrow{left:1px;right:auto}
+
+.select2-container--default.select2-container--disabled .select2-selection--single{
+    background-color:#eee;
+    cursor:default}
+    
+.select2-container--default.select2-container--disabled .select2-selection--single .select2-selection__clear{display:none}
+
+.select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b{border-color:transparent transparent #888 transparent;
+    border-width:0 4px 5px 4px}
+    
+.select2-container--default .select2-selection--multiple{
+    background-color:white;
+    border:1px solid #aaa;
+    border-radius:4px;
+    cursor:text;
+    padding-bottom:5px;
+    padding-right:5px}
+    
+.select2-container--default .select2-selection--multiple .select2-selection__clear{
+    cursor:pointer;
+    float:right;
+    font-weight:bold;
+    height:20px;
+    margin-right:10px;
+    margin-top:5px;padding:1px}
+    
+.select2-container--default .select2-selection--multiple .select2-selection__choice{
+    background-color:#e4e4e4;
+    border:1px solid #aaa;
+    border-radius:4px;
+    display:inline-block;
+    margin-left:5px;
+    margin-top:5px;
+    padding:0}
+    
+.select2-container--default .select2-selection--multiple .select2-selection__choice__display{
+    cursor:default;
+    padding-left:2px;
+    padding-right:5px}
+    
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove{background-color:transparent;
+    border:none;
+    border-right:1px solid #aaa;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    color:#999;
+    cursor:pointer;
+    font-size:1em;
+    font-weight:bold;
+    padding:0 4px}
+    
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove:hover,.select2-container--default .select2-selection--multiple .select2-selection__choice__remove:focus{background-color:#f1f1f1;
+    color:rgb(167, 167, 167);
+    outline:none}
+    
+.select2-container--default[dir="rtl"] 
+
+.select2-selection--multiple .select2-selection__choice{
+    margin-left:5px;
+    margin-right:auto}
+    
+.select2-container--default[dir="rtl"] 
+
+.select2-selection--multiple .select2-selection__choice__display{
+    padding-left:5px;
+    padding-right:2px}
+    
+.select2-container--default[dir="rtl"] 
+
+.select2-selection--multiple .select2-selection__choice__remove{
+    border-left:1px solid #aaa;
+    border-right:none;
+    border-top-left-radius:0;
+    border-bottom-left-radius:0;
+    border-top-right-radius:4px;
+    border-bottom-right-radius:4px}
+    
+.select2-container--default[dir="rtl"] 
+
+.select2-selection--multiple .select2-selection__clear{
+    float:left;
+    margin-left:10px;
+    margin-right:auto}
+    
+.select2-container--default.select2-container--focus .select2-selection--multiple{
+    border:solid rgb(153, 153, 153) 1px;
+    outline:0}
+    
+.select2-container--default.select2-container--disabled .select2-selection--multiple{
+    background-color:#eee;
+    cursor:default}
+    
+.select2-container--default.select2-container--disabled .select2-selection__choice__remove{display:none}
+
+.select2-container--default.select2-container--open.select2-container--above .select2-selection--single,.select2-container--default.select2-container--open.select2-container--above .select2-selection--multiple{border-top-left-radius:0;border-top-right-radius:0}.select2-container--default.select2-container--open.select2-container--below .select2-selection--single,.select2-container--default.select2-container--open.select2-container--below .select2-selection--multiple{border-bottom-left-radius:0;border-bottom-right-radius:0}
+
+.select2-container--default .select2-search--dropdown .select2-search__field{border:1px solid #aaa}
+
+.select2-container--default .select2-search--inline .select2-search__field{
+    background:transparent;
+    border:none;
+    outline:0;
+    box-shadow:none;
+   }
+    
+.select2-container--default .select2-results>.select2-results__options{max-height:200px;overflow-y:auto}
+.select2-container--default .select2-results__option .select2-results__option{padding-left:1em}.select2-container--default .select2-results__option .select2-results__option .select2-results__group{padding-left:0}.select2-container--default .select2-results__option .select2-results__option .select2-results__option{margin-left:-1em;padding-left:2em}.select2-container--default .select2-results__option .select2-results__option .select2-results__option .select2-results__option{margin-left:-2em;padding-left:3em}.select2-container--default .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option{margin-left:-3em;padding-left:4em}.select2-container--default .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option{margin-left:-4em;padding-left:5em}.select2-container--default .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option{margin-left:-5em;padding-left:6em}.select2-container--default .select2-results__option--group{padding:0}.select2-container--default .select2-results__option--disabled{color:#999}.select2-container--default .select2-results__option--selected{background-color:#ddd}.select2-container--default .select2-results__option--highlighted.select2-results__option--selectable{background-color:#5897fb;color:white}.select2-container--default .select2-results__group{cursor:default;display:block;padding:6px}.select2-container--classic .select2-selection--single{background-color:#f7f7f7;border:1px solid #aaa;border-radius:4px;outline:0;background-image:-webkit-linear-gradient(top, #fff 50%, #eee 100%);background-image:-o-linear-gradient(top, #fff 50%, #eee 100%);background-image:linear-gradient(to bottom, #fff 50%, #eee 100%);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFFFF', endColorstr='#FFEEEEEE', GradientType=0)}
+
+.select2-container--classic .select2-selection--single:focus{
+    border:1px solid #5897fb}
+    
+.select2-container--classic .select2-selection--single .select2-selection__rendered{
+    color:rgb(255, 255, 255);
+    line-height:28px}
+    
+.select2-container--classic .select2-selection--single .select2-selection__clear{
+    cursor:pointer;
+    float:right;
+    font-weight:bold;
+    height:26px;
+    margin-right:20px}
+    
+.select2-container--classic .select2-selection--single .select2-selection__placeholder{color:#999}
+
+.select2-container--classic .select2-selection--single .select2-selection__arrow{
+    background-color:#ddd;
+    border:none;
+    border-left:1px solid #aaa;
+    border-top-right-radius:4px;
+    border-bottom-right-radius:4px;
+    height:26px;
+    position:absolute;
+    top:1px;
+    right:1px;
+    width:20px;
+    background-image:-webkit-linear-gradient(top, #eee 50%, #ccc 100%);
+    background-image:-o-linear-gradient(top, #eee 50%, #ccc 100%);
+    background-image:linear-gradient(to bottom, #eee 50%, #ccc 100%);
+    background-repeat:repeat-x;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFEEEEEE', endColorstr='#FFCCCCCC', GradientType=0)}
+    
+.select2-container--classic .select2-selection--single .select2-selection__arrow b{
+    border-color:#888 transparent transparent transparent;
+    border-style:solid;
+    border-width:5px 4px 0 4px;
+    height:0;
+    left:50%;
+    margin-left:-4px;
+    margin-top:-2px;
+    position:absolute;
+    top:50%;width:0}
+    
+.select2-container--classic[dir="rtl"] .select2-selection--single .select2-selection__clear{float:left}
+
+.select2-container--classic[dir="rtl"] .select2-selection--single .select2-selection__arrow{
+    border:none;
+    border-right:1px solid #aaa;
+    border-radius:0;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    left:1px;right:auto}
+    
+.select2-container--classic.select2-container--open .select2-selection--single{
+    border:1px solid #5897fb}
+    
+.select2-container--classic.select2-container--open .select2-selection--single .select2-selection__arrow{background:transparent;
+    border:none}
+    
+.select2-container--classic.select2-container--open .select2-selection--single .select2-selection__arrow b{border-color:transparent transparent #888 transparent;
+    border-width:0 4px 5px 4px}
+    
+.select2-container--classic.select2-container--open.select2-container--above .select2-selection--single{border-top:none;
+    border-top-left-radius:0;
+    border-top-right-radius:0;
+    background-image:-webkit-linear-gradient(top, #fff 0%, #eee 50%);
+    background-image:-o-linear-gradient(top, #fff 0%, #eee 50%);
+    background-image:linear-gradient(to bottom, #fff 0%, #eee 50%);
+    background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFFFF', endColorstr='#FFEEEEEE', GradientType=0)}
+    
+.select2-container--classic.select2-container--open.select2-container--below .select2-selection--single{border-bottom:none;
+    border-bottom-left-radius:0;
+    border-bottom-right-radius:0;
+    background-image:-webkit-linear-gradient(top, #eee 50%, #fff 100%);
+    background-image:-o-linear-gradient(top, #eee 50%, #fff 100%);
+    background-image:linear-gradient(to bottom, #eee 50%, #fff 100%);
+    background-repeat:repeat-x;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFEEEEEE', endColorstr='#FFFFFFFF', GradientType=0)}
+    
+.select2-container--classic .select2-selection--multiple{
+    background-color:white;
+    border:1px solid #aaa;
+    border-radius:4px;
+    cursor:text;
+    outline:0;
+    padding-bottom:5px;
+    padding-right:5px}
+    
+.select2-container--classic .select2-selection--multiple:focus{
+    border:1px solid #5897fb}
+    
+.select2-container--classic .select2-selection--multiple .select2-selection__clear{display:none}
+
+.select2-container--classic .select2-selection--multiple .select2-selection__choice{
+    background-color:#e4e4e4;
+    border:1px solid #aaa;
+    border-radius:4px;
+    display:inline-block;
+    margin-left:5px;
+    margin-top:5px;
+    padding:0}
+    
+.select2-container--classic .select2-selection--multiple .select2-selection__choice__display{
+    cursor:default;
+    padding-left:2px;
+    padding-right:5px}
+    
+.select2-container--classic .select2-selection--multiple .select2-selection__choice__remove{background-color:transparent;
+    border:none;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    color:#888;
+    cursor:pointer;
+    font-size:1em;
+    font-weight:bold;
+    padding:0 4px}
+    
+.select2-container--classic .select2-selection--multiple .select2-selection__choice__remove:hover{
+    color:#555;
+    outline:none}
+    
+.select2-container--classic[dir="rtl"] 
+
+.select2-selection--multiple .select2-selection__choice{
+    margin-left:5px;
+    margin-right:auto}
+    
+.select2-container--classic[dir="rtl"] 
+
+.select2-selection--multiple .select2-selection__choice__display{
+    padding-left:5px;
+    padding-right:2px}
+    
+.select2-container--classic[dir="rtl"] 
+
+.select2-selection--multiple .select2-selection__choice__remove{
+    border-top-left-radius:0;
+    border-bottom-left-radius:0;
+    border-top-right-radius:4px;
+    border-bottom-right-radius:4px}
+    
+.select2-container--classic.select2-container--open .select2-selection--multiple{border:1px solid #5897fb}
+
+.select2-container--classic.select2-container--open.select2-container--above .select2-selection--multiple{border-top:none;
+border-top-left-radius:0;
+border-top-right-radius:0}
+    
+.select2-container--classic.select2-container--open.select2-container--below .select2-selection--multiple{border-bottom:none;border-bottom-left-radius:0;border-bottom-right-radius:0}.select2-container--classic .select2-search--dropdown .select2-search__field{border:1px solid #aaa;outline:0}.select2-container--classic .select2-search--inline .select2-search__field{outline:0;box-shadow:none}.select2-container--classic .select2-dropdown{background-color:#fff;border:1px solid transparent}.select2-container--classic .select2-dropdown--above{border-bottom:none}.select2-container--classic .select2-dropdown--below{border-top:none}.select2-container--classic .select2-results>.select2-results__options{max-height:200px;overflow-y:auto}.select2-container--classic .select2-results__option--group{padding:0}.select2-container--classic .select2-results__option--disabled{color:grey}.select2-container--classic .select2-results__option--highlighted.select2-results__option--selectable{background-color:#3875d7;color:#fff}.select2-container--classic .select2-results__group{cursor:default;display:block;padding:6px}.select2-container--classic.select2-container--open .select2-dropdown{border-color:#5897fb}
+
+/* ------------------------------------------------------------------------------------------------------------ */

@@ -1,0 +1,333 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    background-color: rgb(37, 94, 148);
+    top: 0;
+    left: 0;
+}
+
+nav{
+    margin: 10px auto 10px auto;
+    display: flex;
+    width: 80%;
+
+}
+
+body{
+    margin: 0px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+li{
+    transition: 0.5s;
+    font-size: 22px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: auto;
+}
+
+a{
+    text-decoration: none;
+    padding: 0px;
+}
+
+.start{
+    text-align: left;
+    margin-left: 90px;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.center{
+    margin: auto;
+}
+
+.end{
+    text-align: right;
+    margin-right: 90px;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.btn-nav{
+    transition: 0.5s;
+    background-color: rgb(69, 167, 212);
+    border-radius: 6.5px;
+    padding: 13px;
+    margin: 10px;
+    color: rgb(221, 240, 255);
+}
+
+.btn-nav:hover{
+    transition: 0.5s;
+    background-color:  rgb(68, 196, 255);
+    border-radius: 6.5px;
+    padding: 13px;
+    box-shadow: 0px 0px 7px rgb(0, 195, 255);
+    color: rgb(255, 255, 255);
+}
+
+.login{
+    padding: 13px;
+}
+
+.logo{
+    transition: 0.9s;
+    transform: scale(0.9);
+    width: 180px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo:hover{
+    transition: 0.9s;
+    transform: scale(1.1);
+    width: 180px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-link{
+    color: rgb(184, 241, 255);
+    transition: 0.5s;
+    width: 0px;
+    height: 0px;
+    background-color: rgb(37, 94, 148);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.nav-link:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(50, 123, 190);
+    transition: 0.5s;
+    width: auto;
+}
+
+.nav-link-center{
+    color: rgb(185, 218, 255);
+    transition: 0.5s;
+}
+
+.nav-link-center:hover{
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+.line-nav{
+    height: 3px;
+    border-radius: 20px;
+    width: 0px;
+    background-color: rgb(0, 76, 138);
+    transition: 0.5s;
+    
+}
+
+
+a:hover .line-nav{
+    transition: 0.5s;
+    background-color: rgb(175, 212, 255);
+    width: 100%;
+    
+}
+
+.card{
+    position: relative;
+    transition: 1s;
+    background-color: rgb(48, 80, 117);
+    width: 350px;
+    height: 400px;
+    margin-top: 10px;
+    margin-left: 25px;
+    padding-top: 25px;
+    margin-right: 25px;
+    top: 20px;
+}
+
+.card:hover{
+    position: relative;
+    transition: 0.5s;
+    background-color: rgb(54, 107, 151);
+    width: 350px;
+    height: 400px;
+    top: 50px;
+}
+
+.card:hover .bottom-card{
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.card:hover .img-card{
+    transition: 0.5s;
+    margin-top: 10%;
+}
+
+.card:hover .text-card{
+    transition: 0.5s;
+    opacity: 1;
+}
+
+.card:hover .img-card{
+    transition: 0.5s;
+    opacity: 1;
+}
+
+.text-card{
+    opacity: 0;
+    color: aliceblue;
+    font-size: 20px;
+    margin: 20px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.text-card-bottom{
+    opacity: 1;
+    color: aliceblue;
+    font-size: 20px;
+    margin: 20px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.reserva{
+    font-size: 15px;
+}
+
+.cardy{
+    color: rgb(181, 238, 255);
+    text-transform: uppercase;
+}
+
+.top-central{
+    background-color: rgb(48, 80, 117);
+    height: 500px;
+    width: 100%;
+    background-image: url("img/50.jpg");
+    background-repeat: no-repeat;
+}
+
+.alinhado{
+    padding-top: 120px;
+    text-align: end;
+    padding-right: 2%;
+}
+
+.text-img-top{
+    font-size: 20px;
+    opacity: 0.5;
+    text-align: end;
+    align-items: flex-end;
+    justify-content: end;
+    color: rgb(255, 255, 255);
+    margin-right: 2px;
+    margin-top: 20px;
+    width: 500px;
+    padding: 20px;
+    border-radius: 0px 20px 20px 0px;
+    background-color: rgb(38, 87, 116);
+}
+
+.text-top{
+    font-size: 30px;
+    float: right;
+    color: rgb(200, 230, 255);
+    margin-right: 2px;
+    width: 700px;
+    margin: auto;
+    margin-right: 200px;
+}
+
+.title-top{
+    color: aliceblue;
+    font-size: 55px;
+    margin-right: 200px;
+}
+
+.divisor{
+    z-index: 12;
+    color: aliceblue;
+    margin: 0px;
+    text-align: center;
+    width: 300px;
+    margin-right: 200px;
+    font-size: 20px;
+    border-radius: 7px;
+    background-color: rgb(64, 97, 139);
+    float: right;
+    transition: 0.5s;
+}
+
+.divisor:hover{
+    transition: 0.5s;
+    z-index: 12;
+    color: aliceblue;
+    margin: 0px;
+    text-align: center;
+    width: 300px;
+    margin-right: 200px;
+    font-size: 20px;
+    border-radius: 7px;
+    background-color: rgb(84, 125, 179);
+    float: right;
+}
+
+.divisor:hover .ani{
+    background-color: #355a8a;
+    transition: 0.5s;
+    width: 100%;
+}
+
+.img-card{
+    opacity: 0.6;
+    transition: 0.5s;
+    width: 300px;
+}
+
+.risk{
+    color: rgb(255, 140, 140);
+    text-decoration: line-through;
+}
+
+.real{
+    color: rgb(150, 255, 140);
+    font-size: 30px;
+}
+
+.bottom-card{
+    opacity: 1;
+    transition: 0.6s;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(70, 101, 141);
+}
+
+.inline{
+    display: inline;
+}
+
+.flex{
+    display: flex;
+}
+
+.align-center{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

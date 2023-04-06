@@ -1,0 +1,214 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+
+.ocupation{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #000b49;
+}
+
+.andamento{
+    background-color: #f8d301;
+}
+
+.naoconcluida{
+    background-color: #ff0000;
+}
+
+.topow{
+    width: 150px;
+}
+
+.top{
+    z-index: 15;
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    height: auto;
+    background-color: #000b49;
+    position: fixed;
+    top: 0;
+}
+
+.mg{
+    margin-top: 6%;
+}
+
+img{
+    width: 17%;
+}
+
+.auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ctr2{
+    justify-content: center;
+    align-items: center;
+}
+
+.white{
+    color: #fff;
+}
+    
+    table, th, td {
+    border: 1px solid black;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    table {
+    border-collapse: collapse;
+    margin: 0px 5vw 0px 5vw;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    table-layout: fixed;
+    text-align: center;
+    font-size: 0.9vw;
+    }
+    
+    th, td{
+    padding: 10px;
+    text-align: center;
+    width: auto;
+    }
+    
+    th{
+        font-weight: bold;
+        position: sticky;
+        top: 0;
+        padding-top: 5px;
+        background-color: #326391;
+        color: #fff;
+        padding: 10px 20px;
+      }
+    
+    tr:nth-child(even) {
+    background-color: #ffffff;
+    }
+    
+    tr:hover:nth-child(1n + 2) {
+    background-color: #5c87a8;
+    color: #fff;
+    }    
+        
+    .tela-scroll{
+        height: 300px;
+        overflow-y: scroll;
+        width: 99%;
+    }
+
+    .concluida{
+        background-color: rgb(41, 149, 65);
+        color: #fff;
+    }
+
+    .nconcluida{
+        background-color: #913232;
+        color: #fff;
+    }
+
+.pizza-hummm{
+    height: 300px;
+    width: 100%;
+    margin-top: -50px;
+}
+
+.card-pizza{
+    height: 500px;
+    width: 320px;
+    border-color: rgb(227, 227, 227);
+    border-width: 2px;
+    border-style: solid;
+    background-color: rgb(243, 243, 243);
+    margin: 20px;
+    padding: 0px;
+}
+
+.content-pizza{
+    width: 100%;
+    margin: 2px;
+    color: rgb(255, 255, 255);
+    background-color:  #326391;
+}
+
+.aberto-pizza{
+    font-weight: bold;
+    width: 100%;
+    padding: 15px 0px;
+    color: rgb(0, 0, 0);
+    font-size: 2vw;
+    background-color: rgb(255, 119, 119);
+}
+
+.concluida-pizza{
+    font-weight: bold;
+    width: 100%;
+    padding: 15px 0px;
+    color: rgb(0, 0, 0);
+    font-size: 2vw;
+    background-color: rgb(120, 218, 84);
+}
+
+.inline{
+    display: inline;
+}
+
+.flex{
+    display: flex;
+}
+
+.align-text{
+text-align: center;
+}
+
+.align-ctr{
+    margin: auto;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.title{
+    font-size: 1vw;
+    margin: 0px 2px 0px 2px;
+    padding: 10px 0px;
+    color: rgb(255, 255, 255);
+    background-color:  #326391
+}
+
+.comum{
+    font-size: 1vw;
+    margin: 0px 2px 0px 2px;
+    padding: 10px 0px;
+    color: rgb(82, 82, 82);
+}
+
+.none{
+    display: none;
+}
+
+@media (min-width: 4px ) and (max-width: 794px){
+
+    table {
+        border-collapse: collapse;
+        margin: 0px 5vw 0px 5vw;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        table-layout: fixed;
+        text-align: center;
+        font-size: 0.9vw;
+        }
+}

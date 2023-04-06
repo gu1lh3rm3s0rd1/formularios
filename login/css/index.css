@@ -1,0 +1,63 @@
+  @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800|Poppins&display=swap');
+
+  * {
+    font-family: 'Arial Black';
+}
+
+main {
+    padding: 4px;
+    width: 100%;
+    min-width: 800px;
+    max-width: 1080px;
+    margin: auto;
+}
+
+.cards {
+    display:flex;
+    width: 100%;
+    min-width: 800px;
+    max-width: 1080px;
+}
+
+.logo {
+    margin: auto;
+    float: center;
+}
+
+.cartao {
+    margin: 4px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    max-width: 144px;
+    min-height: 64px;
+    border: 1px solid black;
+    float: center;
+}
+
+.cartao h1 {
+    font-size: 12px;
+    margin: 2px;
+    padding: 2px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.cartao h2 {
+    font-size: 12px;
+    margin: 2px;
+    padding: 2px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.grafico {
+    display:flex;
+    width: 100%;
+    min-width: 800px;
+    max-width: 1080px;
+}
+
+img {
+    width: 100%;
+    height: 90px;
+}
